@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="addQuiz.css">
+    <title>Document</title>
+</head>
+
+<body style="margin: 0; padding: 0;">
+    <div class="mainCreate">
+        <h1>Create Quiz</h1>
+        <div id="btnListExit">
+            <button class="btn" id="comeback">↩️ List</button>
+            <button class="btn" id="exit">↩️ Login </button>
+        </div>
+        <div class="main">
+            <label class="typeQ">❓Choise type question</label>
+            <select id="typeQuiz">
+            <option id="multi">Multichoice questions</option>
+            <option id="tf">Question'True/False'</option>
+        </select>
+            <div class="question">
+                <form>
+                <label class="lblQues">Enter question to create: </label>
+                <textarea class="txt-question" placeholder="Accept input from keyboard..." cols="30" rows="5"></textarea>
+                <br>
+                <button class="createAns">Create Answer</button>
+                <button class="save">Save</button>
+                <button id='reset' class="save">Reset</button>
+            </form>
+            </div>
+        </div>
+
+    </div>
+    <script src="../admin/addQuiz.js"></script>
+</body>
+
+</html>

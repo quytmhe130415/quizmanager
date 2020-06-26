@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="makeQuiz.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="header">
+            <label class="multi">Multichoice Questions</label>
+            <div class="timer">
+                <label class="lblTime">Time left: </label>
+                <p class="timeDown"></p>
+            </div>
+        </div>
+        <div class="content">
+            <div class="displayQuestion">
+
+            </div>
+            <div class="answers">
+
+            </div>
+        </div>
+        <div class="footer">
+            <div class="buttonQuestion">
+            </div>
+            <div class="finish-exam">
+                <input id='finishTest' type="checkbox"><span class="checkWantFinish" style="margin-left: 3px;">I want to finish exam</span>
+                <button id="finish" disabled>Finish</button>
+            </div>
+        </div>
+    </div>
+    <script src="makeQuiz.js"></script>
+</body>
+
+</html>

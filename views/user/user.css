@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background-color: #45aaf2;
+}
+
+.main {
+    width: 700px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 5%;
+    border: 1px solid #f5f6fa;
+    background-color: #ffffff;
+    
+}
+
+.header {
+    background: #747d8c;
+    height: 80px;
+    /* background-image: url(../admin/spring2020.png); */
+}
+img{
+    height: 100px;
+    width: 100%;
+}
+.content {
+    background: #ffffff;
+    height: 400px;
+    /* padding-top: 20px; */
+    background-color: #d2dae2;
+}
+button{
+    border: 1px solid tomato;
+    background-color: #485460;
+    height: 30px;
+    width: 120px;
+    color: white;
+    font-weight: bold;
+    padding: 3px;
+    cursor: pointer;
+}
+.takeQuiz{
+    margin-top: 133px;
+    margin-left: 235px;
+}
+button:hover{
+    backgroun:#485460;
+}
+.logout{
+    margin-top: 5px;
+    margin-left: 5px;
+    height: 25px;
+    width: 25px;
+    /* background-color: ; */
+}
+
+p{
+    color: #ff6b81;
+    display: inline;
+    margin-left: 10px;
+}
+

@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    overflow: hidden;
+    height: 100%;
+    background-color: #95afc0;
+}
+
+.main {
+    width: 700px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 5%;
+    border: 1px solid #f5f6fa;
+    background-color: #ffffff;
+}
+
+.header {
+    background: #747d8c;
+    height: 80px;
+}
+
+.footer {
+    background: #747d8c;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.content {
+    background: #ffffff;
+    height: 320px;
+    padding-top: 20px;
+}
+
+.multi {
+    font-weight: bold;
+    font-size: 20px;
+    color: #f1f2f6;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.create-quiz {
+    height: 30px;
+    width: 30px;
+    margin: 5px;
+    border: 1px solid snow;
+    padding: 5px;
+    background-color: #EA2027;
+    color: #ffffff;
+}
+
+.btnQues {
+    height: 30px;
+    width: 30px;
+    background-color: #ff3838;
+    border: 2px solid #f5f6fa;
+    color: #ffffff;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.btnQues:hover {
+    background-color: #ff4d4d;
+}
+
+.lblQues {
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.textareaQuestion {
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    border-bottom: 1px solid gray;
+    font-size: 15px;
+    outline: none;
+    resize: none;
+    background-color: transparent;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 98%;
+    height: 50px;
+    font-weight: bold;
+}
+.answerEl{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.cbCorrect{
+    margin-right: 10px;
+    width: 15px;
+    height: 15px;
+}
+.lblAns{
+    margin-left: 10px;
+    color: #ff3838;
+}
+.exit{
+    height: 20px;
+    width: 30px;
+    padding: 2px;
+    background-color: #3c40c6;
+    color: cornsilk;
+    border: 1px solid darkviolet;
+    margin-top: 8px;
+    margin-left: 96%;
+}
+.outExam{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 10px;
+}
+.timer{
+    display: flex;
+    justify-content: row;
+    margin-top: 10px;
+}
+.lblTime{
+    margin-left: 275px;
+    font-size: 25px;
+    /* color: ; */
+}
+.timeDown{
+    margin-left: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    color: red;
+}
+#finish{
+    background-color: #130f40;
+    color: rgba(0, 212, 255, 1);
+    height: 30px;
+    width: 45px;
+    border: 1px solid #95afc0;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#finish:hover{
+    background-color: #241b8a;
+}
+
+.checkWantFinish{
+    color: #3c40c6;
+    font-weight: bold;
+    font-size: large;
+}
+.finish-exam{
+   margin-left: 250px;
+}
+

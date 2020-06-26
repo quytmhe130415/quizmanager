@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial;
+    background: #a5b1c2;
+}
+
+.mainCreate {
+    width: 450px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 5%;
+    border: 1px solid #e17055;
+    box-sizing: content-box;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+h1 {
+    text-align: center;
+    color: #00cec9;
+    text-shadow: 1px 1px 1px #fd79a8;
+}
+
+.main {
+    margin-top: 20px;
+}
+
+.typeQ {
+    font-weight: bold;
+    color: #2d3436;
+}
+
+#typeQuiz {
+    background-color: #fdcb6e;
+    color: currentcolor;
+    font-family: monospace;
+}
+
+textarea {
+    padding: 5px;
+    resize: none;
+}
+
+.question {
+    margin-top: 5px;
+    margin-left: 30px;
+}
+
+.lblQues {
+    display: block;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.createAns,
+.save {
+    color: #ffffff;
+    background: #7158e2;
+    outline: none;
+    height: 30px;
+    width: 100px;
+    border: 1px solid;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.createAns:hover {
+    background: #7d5fff;
+    border-color: #ff4d4d;
+}
+
+.save:hover {
+    background: #7d5fff;
+    border-color: #ff4d4d;
+}
+
+.lblAns {
+    color: #fdcb6e;
+}
+
+input {
+    margin: 5px;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.imgRemove {
+    height: 15px;
+    width: 15px;
+}
+
+.btn {
+    border: 1px solid #1ed760;
+    background: #1ed760;
+    margin-top: 10px;
+    height: 30px;
+    width: 100px;
+    padding: 0 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    outline: none;
+}
+
+.btn:hover {
+    background-color: #7bed9f;
+    border: 1px solid #eb3b5a;
+    border-radius: 10px;
+}
+
+#btnListExit {
+    margin-left: 92px;
+}
